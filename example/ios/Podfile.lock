@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - hardwarekeys (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - hardwarekeys (from `.symlinks/plugins/hardwarekeys/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  hardwarekeys:
+    :path: ".symlinks/plugins/hardwarekeys/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  hardwarekeys: 9449265f0ce8cbca555cb3eab1d32f2d39b723a6
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.6.0

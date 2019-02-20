@@ -17,10 +17,12 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
+  
     super.initState();
     _streamSubscription = hardwareKeyEvents.listen((HardwareKeyEvent event){
       setState(() {
       _lastKeyPressed = event.type;
+      print(event.type);
             });
     });
   }
