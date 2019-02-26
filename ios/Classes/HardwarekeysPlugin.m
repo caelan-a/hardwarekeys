@@ -50,7 +50,7 @@
 
     [[NSNotificationCenter defaultCenter]
     addObserver:self
-    selector:@selector(onHomePressed)q
+    selector:@selector(onHomePressed)
     name:UIApplicationWillResignActiveNotification 
     object:nil];
 
